@@ -1,0 +1,8 @@
+<h1>Your Movies</h1>
+
+<% @films.each do |post| %>
+  <%= film.title %><br>
+  <%= film.year %><br>
+  <%= film.actors %><br>
+  <%= film.description %><br>
+<% end %>

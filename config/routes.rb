@@ -1,4 +1,7 @@
 Movie::Application.routes.draw do
+  get "film/index"
+  get "film/new"
+  post "film/create"
   get "/", :to => 'static#home'
   get "/about", :to => 'static#about'
   # The priority is based upon order of creation: first created -> highest priority.
